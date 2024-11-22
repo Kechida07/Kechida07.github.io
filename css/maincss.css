@@ -1,48 +1,57 @@
-h1 {
-    z-index: 3;
+/* General Styling */
+body {
+    background-color: rgb(9, 15, 15);
+}
+
+h1, h2, p {
     color: white;
     font-style: oblique;
-    text-align:left;
-    font-size: 55px; 
-    position:fixed; left: 170px; top: 20px;
+}
+
+/* Header Styling */
+h1 {
+    z-index: 3;
+    text-align: left;
+    font-size: 55px;
+    position: fixed;
+    left: 170px;
+    top: 20px;
 }
 
 h2 {
-    color: white;
-    font-style: oblique;
-    font-size: 38px; 
-    padding-left: 100px;
-    padding-right: 100px;
-    position:relative; 
+    font-size: 38px;
+    position: relative;
     top: 300px;
     margin-left: 200px;
+    padding: 0 100px;
 }
 
 p {
-    color: white;
-    font-style: oblique;
-    font-size: 23px; 
-    text-align: center; 
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: 0px;
-    position:relative; 
+    font-size: 23px;
+    text-align: center;
+    padding: 0 100px;
+    margin: 0;
+    position: relative;
     top: 300px;
 }
 
+/* Image Styling */
 img {
-    position:fixed; top: 0px;
-    z-index: 3
+    position: fixed;
+    top: 0;
+    z-index: 3;
 }
 
+/* Button Styling */
 button {
     background-color: transparent;
     color: white;
-    border: 10px white;
     padding: 30px 20px;
     cursor: pointer;
-    position:relative; 
-    font-size: 25px; font-style: oblique;
+    position: relative;
+    font-size: 25px;
+    font-style: oblique;
+    border: none; /* Remove any borders */
 }
 
 button a {
@@ -54,56 +63,55 @@ button a:hover {
     color: lightgray;
 }
 
-body {
-    background-color: rgb(9, 15, 15);
-
+/* Button Positions */
+.btn1, .btn2, .btn3, .btn4 {
+    z-index: 3;
+    position: fixed;
+    top: 75px;
 }
 
-.btn1 {
-    z-index: 3;
-    position:fixed; top: 75px; margin-left: 725px;
+.btn1 { left: 725px; }
+.btn2 { left: 850px; }
+.btn3 { left: 975px; }
+.btn4 { left: 1130px; }
+
+/* Contact Title */
+#ContactTitle {
+    z-index: 1;
+    position: right;
+    text-align: center;
+    margin: 400px 300px 0 0;
+    font-size: 55px;
 }
 
-.btn2 {
-    z-index: 3;
-    position:fixed; top: 75px; margin-left: 850px;}
-
-.btn3 {
-    z-index: 3;
-    position:fixed; top: 75px; margin-left: 975px;    
-}
-
-.btn4 {
-    z-index: 3;
-    font: oblique;
-
-}
-
+/* Form Styling */
 form {
     font-family: "Days One", sans-serif;
-   
+    position: relative;
+    margin-top: 200px;
 }
 
+/* Submit Button Styling */
 button.submit {
-    background-color:#ef8215;
-    font-family: "Days One", sans-serif;
+    background-color: #ef8215;
     border: none;
     color: rgb(246, 243, 243);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin-top: 30px;
     margin-bottom: 120px;
-    margin-top: 30;
     cursor: pointer;
     border-radius: 16px;
-  }
+}
 
-  .submit:hover{
-    background-color:chocolate;
-  }
+.submit:hover {
+    background-color: chocolate;
+}
 
-input{type:text} select, textarea{
+/* Input and Textarea Styling */
+input[type="text"], select, textarea {
     width: 50%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -114,133 +122,200 @@ input{type:text} select, textarea{
     resize: vertical;
 }
 
-.container{
+/* Container Styling */
+.container {
     border-radius: 5px;
     background-color: #ef8215;
     padding: 10px;
 }
 
-.row{
+/* Row Styling */
+.row {
     border-radius: 1px;
     background-color: rgb(136, 133, 129);
     padding: 5px;
 }
 
-form {
-    position:relative; margin-top: 200px
-
-}
-
+/* Label Styling */
 label {
     color: white;
-    font: oblique
+    font-style: oblique;
 }
 
+/* Menu Styling */
 .menu {
-
     background-color: black;
-    height:150px;
-    margin: 0; padding: 0;
+    height: 150px;
     width: 100vw;
-    left: 0;
+    position: fixed;
     top: 0;
+    left: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     z-index: 2;
-    position:fixed;
 }
 
+/* Cow Icon Styling */
 .cow {
-    position:absolute; 
-    top: 250px; 
+    position: absolute;
+    top: 250px;
     margin-left: 1100px;
- }
+}
 
- .phome {
-    position:relative; 
+/* Footer Navigation Styling */
+.phome {
+    position: relative;
     margin-left: -470px;
     font-size: 28px;
+}
+
+.COTW, .COTW2 {
+    font-family: "Days One", sans-serif;
+    margin-top: 50px;
 }
 
 .COTW {
     margin-left: 990px;
     font-size: 16px;
-    font-family: "Days One", sans-serif;
 }
 
 .COTW2 {
     margin-left: 990px;
-    font-family: "Days One", sans-serif;
+    margin-top: 5px;
 }
 
+/* Car Brands Styling */
 .Ferrari {
     position: fixed;
-    margin: 705px 300px 0px 0px;
+    margin: 705px 300px 0 0;
     height: 25px;
+}
 
-}
-.Chevrolet{
+.Chevrolet {
     position: fixed;
-    margin: 705px 0px 0px 1070px;
+    margin: 715px 0 0 1070px;
     height: 20px;
 }
-.Porsche{
+
+.Porsche {
     position: fixed;
-    margin: 705px 0px 0px 600px;
+    margin: 710px 0 0 600px;
     height: 20px;
 }
-.BMW{
+
+.BMW {
     position: fixed;
-    margin: 695px 0px 0px 200px;
+    margin: 695px 0 0 200px;
     height: 40px;
 }
-.Mclaren{
+
+.Mclaren {
     position: fixed;
-    margin: 695px 0px 0px 335px;
+    margin: 700px 0 0 335px;
     height: 30px;
 }
-.Merc{
+
+.Merc {
     position: fixed;
-    margin: 695px 0px 0px 975px;
-    height: 40px;
-}
-.Lambo{
-    position: fixed;
-    margin: 695px 0px 0px 1330px;
+    margin: 700px 0 0 975px;
     height: 40px;
 }
 
+.Lambo {
+    position: fixed;
+    margin: 700px 0 0 1330px;
+    height: 40px;
+}
 
-.bottombar{
+/* Bottom Bar Styling */
+.bottombar {
     background-color: black;
-    height:50px;
-    margin: 0; padding: 0;
+    height: 65px;
     width: 100vw;
+    position: fixed;
     left: 0;
     bottom: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     z-index: 2;
-    position:fixed;
 }
 
-
+/* Background Video Styling */
 #background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     position: fixed;
-    left: 0;
-    right: 0;
     top: 0;
+    left: 0;
     bottom: 0;
+    right: 0;
     z-index: -1;
     opacity: 0.25;
- }
+}
+
+/* Gallery Images */
+.thegallery {
+    font-family: "Days One", sans-serif;
+    align-self: center;
+    margin-left: 25px;
+}
+
+.gal1 {
+    font-family: "Days One", sans-serif;
+    margin-left: 50px;
+    margin-top: 200px;
+}
 
 
+.gal2 {
+    font-family: "Days One", sans-serif;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+.gal3 {
+    font-family: "Days One", sans-serif;
+    margin-left: 750px;
+    margin-top: 200px;
+}
+
+.gal4 {
+    font-family: "Days One", sans-serif;
+    margin-left: 1100px;
+    margin-top: 200px;
+}
+
+.pgal1 {
+    margin-left: -1090px; 
+    margin-top: 25px;
+}
+
+.pgal2 {
+    margin-left: -390px; 
+    margin-top: -25px;
+}
+
+.pgal3 {
+    margin-left: 310px; 
+    margin-top: -25px;
+}
+
+.pgal4 {
+    margin-left: 1012px; 
+    margin-top: -25px;
+}
+
+.galdesc {
+    margin-top: 45px;
+}
+
+
+
+/* Miscellaneous */
 .Number {
     margin-left: 1300px;
- }
+}
+
