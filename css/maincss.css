@@ -64,16 +64,17 @@ button a:hover {
 }
 
 /* Button Positions */
-.btn1, .btn2, .btn3, .btn4 {
+.btn1, .btn2, .btn3, .btn4, .btn5 {
     z-index: 3;
     position: fixed;
     top: 75px;
 }
 
-.btn1 { left: 725px; }
-.btn2 { left: 850px; }
-.btn3 { left: 975px; }
-.btn4 { left: 1130px; }
+.btn1 { left: 620px; }
+.btn2 { left: 740px; }
+.btn3 { left: 860px; }
+.btn4 { left: 990px; }
+.btn5 { left: 1185px; }
 
 /* Contact Title */
 #ContactTitle {
@@ -263,6 +264,12 @@ label {
     margin-left: 25px;
 }
 
+.bfriday {
+    font-family: "Days One", sans-serif;
+    align-self: center;
+    margin-left: 25px;
+}
+
 .gal1 {
     font-family: "Days One", sans-serif;
     margin-left: 50px;
@@ -276,11 +283,13 @@ label {
     margin-top: 200px;
 }
 
+
 .gal3 {
     font-family: "Days One", sans-serif;
     margin-left: 750px;
     margin-top: 200px;
 }
+
 
 .gal4 {
     font-family: "Days One", sans-serif;
@@ -288,25 +297,55 @@ label {
     margin-top: 200px;
 }
 
+
 .pgal1 {
     margin-left: -1090px; 
     margin-top: 25px;
 }
+
 
 .pgal2 {
     margin-left: -390px; 
     margin-top: -25px;
 }
 
+
 .pgal3 {
     margin-left: 310px; 
     margin-top: -25px;
 }
 
+
 .pgal4 {
     margin-left: 1012px; 
     margin-top: -25px;
 }
+
+
+.se2 {
+    margin-left: 300px;
+    margin-top: 170px;
+}
+
+
+.se3 {
+    margin-left: 800px;
+    margin-top: 170px;
+}
+
+
+.wse2 {
+    margin-left: -520px; 
+    margin-top: -430px;
+}
+
+
+.wse3 {
+    margin-left: 500px; 
+    margin-top: -25px;
+    
+}
+
 
 .galdesc {
     margin-top: 45px;
@@ -318,4 +357,3 @@ label {
 .Number {
     margin-left: 1300px;
 }
-
